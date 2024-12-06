@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Cherry+Swash:wght@400;700&family=Gentium+Plus&display=swap');
+
+* {
+  font-family: "Cherry Swash"
+}
+
+
+
+
+.cherry-swash-regular { 
+  font-family: "Cherry Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cherry-swash-bold {
+  font-family: "Cherry Swash", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 5px; /* Adjust the height as needed */
+    background-color: transparent; /* Set the background color */
+    padding: 10px; /* Add padding to create space around the icons */
+  }
+
+
+body {
+    background-color: #e8b7c1;
+    background-size: 30%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
+
+  
+  .menu-icon {
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    /* Add any specific styles for the icons here, such as size, color, etc. */
+  }
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.modal {
+  /* ... other modal styles ... */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: #d60b8b;
+  flex-direction: column;
+  z-index: 999;
+}
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  background-color: #d60b8b; /* Semi-transparent black */
+  z-index: 999;
+}
+
+
+.modal-body {
+  display:flow-root;
+  align-content: center;
+
+}
+.modal-header, .modal-body, .modal-footer {
+  margin-bottom: 10px;
+  margin-left: 70px;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.search-container {
+  position: relative;
+  padding-top: 60px;
+}
+
+
+.search-btn {
+  padding-top: 40px;
+}
+
+#search-input {
+    border: 0px solid #d60b8b; /* Adjust border style and color as needed */  
+    padding: 5px; /* Adjust padding as needed */
+    background-color: #e8b7c1; /* Set your desired background color */
+    margin-right: 50px; /* Add margin to separate from the icon */
+    margin-top: 30px;
+    position: bottom;
+    padding: 5px; 
+}
+
+#open-modal-btn {
+  padding-top: 50px;
+
+}
+
+
+button {
+  background-color: transparent;
+  border: none;
+
+}
